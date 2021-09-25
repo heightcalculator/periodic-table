@@ -1,0 +1,288 @@
+<style>
+  img{
+  height: 20%;
+}
+input{
+  width: 20%;
+  height: 22px;
+   }
+body{
+  background-color: rgb(211,211,211);
+  text-align:center;
+}
+   p{
+   font-size: 100%}
+button{
+  background-color: black;
+  color: white;
+  width: 75px;
+  border-radius: 10px;
+}
+   div{
+   position: relative;
+   top: 25%
+   }
+   h{
+   font-size: 300%
+   
+   }
+   @media (max-device-width:600px) {
+      div{
+   position: relative;
+   top: 0%;
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   }
+     p{
+   font-size: 200%}
+      button{
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 150%;
+      }
+      input{
+      width: 300px;
+      height: 60px;
+      font-size: 150%;
+      }
+   }
+    
+</style>
+<head>
+   <title>Aarush Magic Periodic Table</title>
+
+</head>
+
+<!---<button onclick="window.location.href='./elements/hydrogen.html'">Hydrogen</button>
+<button onclick="window.location.href='./elements/helium.html'">Helium</button>
+<button onclick="window.location.href='./elements/lithium.html'">Lithium</button>
+<button onclick="window.location.href='./elements/beryllium.html'">Beryllium</button>
+   
+</body> --->
+<body>
+<div>
+   <img src="./elements/images/logo.png"><br><br>
+   <h><b>Aarush Magic Periodic Table</b></h>
+   <p>Search for details about any of the first 20 elements from the periodic table by typing the element name, symbol, or atomic number</p>
+   <input id="search" placeholder="Search for an element">
+   <button>Search</button> </div></body>
+<script type="text/javascript">
+             const
+  button = document.querySelector('button') 
+, search = document.getElementById('search')
+  ;
+button.onclick = e =>
+  {
+  if (['aarush','Aarush','Aarush Magic','magic', 'Magic', 'Aarush magic', 'aarush magic'].includes( search.value )){
+      window.location.href='https://www.aarushmagic.com'
+  }
+  if (['Hydrogen','H','1','hydrogen'].includes( search.value )){
+      window.location.href='./elements/hydrogen.html'}
+      
+  if (['Helium','He','2','helium'].includes( search.value )){
+      window.location.href='./elements/helium.html'
+  } 
+   if (['Sodium','Na','11','sodium'].includes( search.value )){
+      window.location.href='./elements/sodium.html'
+  } 
+  if (['Magnesium','Mg','12','magnesium'].includes( search.value )){
+      window.location.href='./elements/magnesium.html'
+  } 
+    if (['Aluminum','Aluminium','Al','13','aluminum','aluminium'].includes( search.value )){
+      window.location.href='./elements/aluminum.html'
+  } 
+    if (['Silicon','Si','14','silicon'].includes( search.value )){
+      window.location.href='./elements/silicon.html'
+  } 
+      if (['Phosphorus','P','15','phosphorus'].includes( search.value )){
+      window.location.href='./elements/phosphorus.html'
+  } 
+  if (['Sulfur','S','16','sulfur'].includes( search.value )){
+      window.location.href='./elements/sulfur.html'
+  } 
+    if (['Chlorine','Cl','17','chlorine'].includes( search.value )){
+      window.location.href='./elements/chlorine.html'
+  } 
+    if (['Argon','Ar','18','argon'].includes( search.value )){
+      window.location.href='./elements/argon.html'
+  } 
+  if (['Potassium','K','19','potassium'].includes( search.value )){
+      window.location.href='./elements/potassium.html'}
+      
+  if (['Calcium','Ca','20','calcium'].includes( search.value )){
+      window.location.href='./elements/calcium.html'
+  } 
+   if (['Scandium','Sc','21','scandium'].includes( search.value )){
+      window.location.href='./elements/scandium.html'
+  } 
+  if (['Titanium','Ti','22','titanium'].includes( search.value )){
+      window.location.href='./elements/titanium.html'
+  } 
+    if (['Vanadium','V','23','vanadium'].includes( search.value )){
+      window.location.href='./elements/vanadium.html'
+  } 
+    if (['Chromium','Cr','24','chromium'].includes( search.value )){
+      window.location.href='./elements/chromium.html'
+  } 
+      if (['Manganese','Mn','25','manganese'].includes( search.value )){
+      window.location.href='./elements/manganese.html'
+  } 
+  if (['Iron','Fe','26','iron'].includes( search.value )){
+      window.location.href='./elements/iron.html'
+  } 
+    if (['Cobalt','Co','27','cobalt'].includes( search.value )){
+      window.location.href='./elements/cobalt.html'
+  } 
+    if (['Nickel','Ni','28','nickel'].includes( search.value )){
+      window.location.href='./elements/nickel.html'
+  }   
+   if (['Copper','Cu','29','copper'].includes( search.value )){
+      window.location.href='./elements/copper.html'
+  } 
+  if (['Zinc','Zn','30','zinc'].includes( search.value )){
+      window.location.href='./elements/zinc.html'
+  } 
+    if (['Gallium','Ga','31','gallium'].includes( search.value )){
+      window.location.href='./elements/gallium.html'
+  } 
+    if (['Germanium','Ge','32','germanium'].includes( search.value )){
+      window.location.href='./elements/germanium.html'
+  } 
+      if (['Arsenic','As','33','arsenic'].includes( search.value )){
+      window.location.href='./elements/arsenic.html'
+  } 
+  if (['Selenium','Se','34','selenium'].includes( search.value )){
+      window.location.href='./elements/selenium.html'
+  } 
+    if (['Bromine','Br','35','bromine'].includes( search.value )){
+      window.location.href='./elements/bromine.html'
+  } 
+    if (['Krypton','Kr','36','krypton'].includes( search.value )){
+      window.location.href='./elements/krypton.html'
+  }    
+  }
+        document.querySelector("button").addEventListener("click", function() {  
+           var element= document.getElementById('search').value;
+         //Hydrogen
+    
+        //Helium
+        //Lithium
+        if(document.getElementById('search').value === 'Lithium'){
+                window.location.href='./elements/lithium.html'
+            }
+        if(document.getElementById('search').value === 'Li'){
+                window.location.href='./elements/lithium.html'
+            }
+        if(document.getElementById('search').value === '3'){
+                window.location.href='./elements/lithium.html'
+            }
+        if(document.getElementById('search').value === 'lithium'){
+                window.location.href='./elements/lithium.html'
+            }
+        //Beryllium
+        if(document.getElementById('search').value === 'Beryllium'){
+                window.location.href='./elements/beryllium.html'
+            }
+        if(document.getElementById('search').value === '3'){
+                window.location.href='./elements/beryllium.html'
+            }
+        if(document.getElementById('search').value === 'beryllium'){
+                window.location.href='./elements/beryllium.html'
+            }
+        if(document.getElementById('search').value === 'Be'){
+                window.location.href='./elements/beryllium.html'
+            }
+        //Boron
+        if(document.getElementById('search').value === 'Boron'){
+                window.location.href='./elements/boron.html'
+            }
+        if(document.getElementById('search').value === 'boron'){
+                window.location.href='./elements/boron.html'
+            }
+        if(document.getElementById('search').value === '5'){
+                window.location.href='./elements/boron.html'
+            }
+        if(document.getElementById('search').value === 'B'){
+                window.location.href='./elements/boron.html'
+            }
+        //Carbon
+        if(document.getElementById('search').value === 'Carbon'){
+                window.location.href='./elements/carbon.html'
+            }
+        if(document.getElementById('search').value === '6'){
+                window.location.href='./elements/carbon.html'
+            }
+        if(document.getElementById('search').value === 'C'){
+                window.location.href='./elements/carbon.html'
+            }
+        if(document.getElementById('search').value === 'carbon'){
+                window.location.href='./elements/carbon.html'
+            }
+        //Nitrogen
+        if(document.getElementById('search').value === 'Nitrogen'){
+                window.location.href='./elements/nitrogen.html'
+            }
+        if(document.getElementById('search').value === '7'){
+                window.location.href='./elements/nitrogen.html'
+            }
+        if(document.getElementById('search').value === 'N'){
+                window.location.href='./elements/nitrogen.html'
+            }
+        if(document.getElementById('search').value === 'nitrogen'){
+                window.location.href='./elements/nitrogen.html'
+            }           
+        //Oxygen
+        if(document.getElementById('search').value === 'Oxygen'){
+                window.location.href='./elements/oxygen.html'
+            }
+        if(document.getElementById('search').value === '8'){
+                window.location.href='./elements/oxygen.html'
+            }
+        if(document.getElementById('search').value === 'O'){
+                window.location.href='./elements/oxygen.html'
+            }
+        if(document.getElementById('search').value === 'oxygen'){
+                window.location.href='./elements/oxygen.html'
+            }                      
+        //Fluorine
+        if(document.getElementById('search').value === 'Fluorine'){
+                window.location.href='./elements/fluorine.html'
+            }
+        if(document.getElementById('search').value === '9'){
+                window.location.href='./elements/fluorine.html'
+            }
+        if(document.getElementById('search').value === 'F'){
+                window.location.href='./elements/fluorine.html'
+            }
+        if(document.getElementById('search').value === 'fluorine'){
+                window.location.href='./elements/fluorine.html'
+            }   
+        //Neon
+        if(document.getElementById('search').value === 'Neon'){
+                window.location.href='./elements/neon.html'
+            }
+        if(document.getElementById('search').value === '10'){
+                window.location.href='./elements/neon.html'
+            }
+        if(document.getElementById('search').value === 'Ne'){
+                window.location.href='./elements/neon.html'
+            }
+        if(document.getElementById('search').value === 'neon'){
+                window.location.href='./elements/neon.html'
+            }              
+        //Sodium
+        
+        //Magnesium
+        //Aluminum
+        //Silicon
+        //Phosphorus
+        //Sulfur
+        //Chlorine
+        //Argon
+        //Potassium
+        //Calcium
+        })
+
+</script>
