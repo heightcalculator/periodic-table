@@ -1,0 +1,40 @@
+img{
+  height: 200px;
+}
+#title{
+  font-size:200%;
+}
+body{
+   padding-top: 25px;
+  text-align:center;
+     background-color: rgb(211,211,211);
+}
+p{
+font-size: 100%
+
+}
+button{
+  background-color: black;
+  color: white;
+  width: 75px;
+  border-radius: 10px;
+}
+
+@media (max-device-width:1000px) {
+img{
+  height: 30%;
+}
+#title{
+  font-size:300%;
+}
+p{
+font-size: 200%
+
+}
+button{
+    width: 150px;
+  height: 60px;
+  font-size: 150%;
+}
+
+}
